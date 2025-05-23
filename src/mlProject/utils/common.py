@@ -29,9 +29,9 @@ def create_directories(path_to_directories:list, verbsoe=True):
         logger.info(f"created directory at: {path}")
 
 @ensure_annotations
-def save_json(path:Path,date:dict):
+def save_json(path:Path,data:dict):
     with open(path,"w") as f:
-      json.dump(date,f,indent=4)
+      json.dump(data,f,indent=4)
     
     logger.info(f"json file saved at : {path}")
 
