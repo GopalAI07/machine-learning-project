@@ -7,4 +7,4 @@ conda create -n mlproj python=3.11.4 -y
 pip install -r requirements.txt
 ```
 
-
+ 
